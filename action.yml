@@ -5,8 +5,6 @@ inputs:
   repo-token:
     description: 'Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}'
     required: true
-  issue-message:
-    description: 'Comment to post on an individuals first issue'
   pr-message:
     description: 'Comment to post on an individuals first pull request'
 runs:
